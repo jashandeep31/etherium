@@ -146,6 +146,7 @@ footer {
   display: flex;
   padding: 0 0 10px 0;
   justify-content: space-between;
+  background-color: #17161b;
 }
 footer button {
   background-color: #17161b;
