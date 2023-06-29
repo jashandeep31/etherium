@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #17161b;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  padding: 20px 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header button {
+  background-color: #17161b;
+  outline: none;
+  border: none;
+  color: white;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.main-container .main-card {
+  padding: 30px 5%;
+  background-image: url("../images/bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 150%;
+}
+.main-container .main-card h1 {
+  font-weight: 300;
+  font-size: 36px;
+  background: linear-gradient(90deg, hsl(192, 72%, 76%) 0%, hsl(167, 43%, 63%) 26%, hsl(111, 48%, 67%) 60%, hsl(46, 88%, 68%) 94%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.main-container .main-card h1 span {
+  margin-left: 10px;
+}
+.main-container .main-card .helper-text {
+  margin: 20px 0 0 0;
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.main-container .main-card .helper-text :last-child {
+  color: #58a24d;
+}
+.main-container .main-card .buttons {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  margin: 25px 0 0 0;
+}
+.main-container .main-card .buttons button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+  color: #f7b930;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #313236;
+  font-size: 16px;
+  outline: none;
+  border: none;
+}
+.main-container .details {
+  padding: 30px 5%;
+  margin: 40px 0;
+}
+.main-container .details .controls {
+  display: flex;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.main-container .details .controls button {
+  background-color: #17161b;
+  color: #56596c;
+  outline: none;
+  border: none;
+  font-size: 17px;
+  font-weight: 700;
+  border-bottom: 2px solid transparent;
+  padding: 0 20px 5px 20px;
+}
+.main-container .details .controls .active {
+  color: white;
+  border-color: white;
+}
+.main-container .details .content {
+  margin: 20px 0;
+}
+.main-container .details .content h3 {
+  font-size: 16px;
+}
+.main-container .details .content .cards {
+  margin: 30px 0;
+  display: grid;
+  row-gap: 20px;
+}
+.main-container .details .content .cards .card {
+  display: flex;
+  align-items: center;
+}
+.main-container .details .content .cards .card .detail {
+  padding: 3px 15px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.main-container .details .content .cards .card .detail .main p {
+  font-size: 14px;
+  color: #56596c;
+}
+.main-container .details .content .add-collectibles {
+  background-color: #17161b;
+  display: block;
+  color: #f7b930;
+  font-weight: bold;
+  font-size: 16px;
+  width: 100%;
+  outline: none;
+  border: none;
+  margin: 30px 0 0 0;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  padding: 0 0 10px 0;
+  justify-content: space-between;
+}
+footer button {
+  background-color: #17161b;
+  border: 0;
+  outline: 0;
+  color: #56596c;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+footer button i {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+footer .active {
+  color: #f7b930;
+}/*# sourceMappingURL=style.css.map */
